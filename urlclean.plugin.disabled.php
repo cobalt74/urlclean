@@ -1,7 +1,7 @@
 <?php
 /*
 @name Url Clean
-@author Olivier <http://olivierlebris.me>
+@author Olivier <http://j.cybride.net/olb>
 @link http://j.cybride.net/olb
 @licence CC by nc sa http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
 @version 2.1.1
