@@ -21,6 +21,6 @@ Version
 
 Auteur
 =======
-@kraoc - http://olivierlebris.me
+@kraoc - http://j.cybride.net/olb
 
 Contributeur : @Cobalt74 - cobalt74 at gmail dot com - www.cobestran.com
