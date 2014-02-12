@@ -2,7 +2,7 @@
 /*
 @name Url Clean
 @author Olivier <http://olivierlebris.me>
-@link http://cybride.net/olivier
+@link http://j.cybride.net/olb
 @licence CC by nc sa http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
 @version 2.1.1
 @description Used to cleanup url from some crap (xtor, utm_) and use url id of RSS feed for clean Feedbrner(feedproxy), feedsportal url
