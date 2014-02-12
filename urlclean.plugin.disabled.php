@@ -1,10 +1,10 @@
 <?php
 /*
 @name Url Clean
-@author Olivier <http://j.cybride.net/olb>
-@link http://j.cybride.net/olb
+@author Olivier <http://olivierlebris.me>
+@link http://cybride.net/olivier
 @licence CC by nc sa http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
-@version 2.1.1
+@version 2.1.2
 @description Used to cleanup url from some crap (xtor, utm_) and use url id of RSS feed for clean Feedbrner(feedproxy), feedsportal url
 */
 
@@ -12,7 +12,7 @@ function urlclean_plugin_link(&$events){
 	foreach($events as $event){
         $link = $event->getLink();
 
-        if (preg_match('#feedproxy#',$link) or preg_match('#feedsportal#',$link)){
+        if (preg_match('#feedproxy#',$link) or preg_match('#feedsportal#',$link) or preg_match('#flux.20minutes.fr#',$link)){
             if (function_exists('curl_init')) {
                 $ch = curl_init();
                 curl_setopt($ch, CURLOPT_URL, $link);
