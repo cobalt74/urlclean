@@ -14,6 +14,7 @@ Instructions
 Version
 =======
 
+* v2.1.3  -  Déport de cURL en 'dernier recourt'
 * v2.1.2  -  Prise en compte de flux.20minutes.fr
 * v2.1.1  -  Correction de la gestion de feedsportal
 * v2.1.0  -  Modification Regex (prise en compte des &amp;)
